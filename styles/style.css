@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: content-box;
 }
+footer {
+    background-color: darkslategrey;
+}
 
 header{
     background-color: lightskyblue;
@@ -12,6 +15,11 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.border {
+    border: 2px dotted black;
+}
+
 header .nav-bar{
     display: flex;
     width: 60%;
@@ -19,4 +27,72 @@ header .nav-bar{
     height: 50px;
 }
 
-.blu-container
+.blu-background{
+    background-color: blue;
+    height: 500px;
+}
+.hero {
+    width: 50%;
+    height: 400px;
+    background-color: magenta;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 65%;
+    height: 500px;
+    margin: 3rem 0;
+    background-color: yellow;
+    display: flex;
+}
+
+.container .sky {
+    height: 100%;
+    width: 60%;
+    background-color: skyblue;
+}
+
+.container .pink {
+    height: 100%;
+    width: 40%;
+    background-color: pink;
+}
+
+.green-box {
+    width: 60%;
+    height: 700px;
+    background-color: green;
+    margin: 3rem 0;
+}
+
+.left-footer-side{
+    width: calc(100% / 3);
+    background-color: salmon;
+}
+
+.columns {
+    background-color: skyblue;
+    width: calc(100% / 6);
+    border: 2px dotted white;
+}
+
+footer > section > .container{
+    margin-top: 1rem;
+}
+
+footer > section > {
+    border-bottom: 2px solid white;
+}
+
+
+.gray {
+    background-color: lightgray;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}

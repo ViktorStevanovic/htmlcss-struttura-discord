@@ -63,7 +63,7 @@ header .nav-bar{
 }
 
 .green-box {
-    width: 60%;
+    width: 65%;
     height: 700px;
     background-color: green;
     margin: 3rem 0;
@@ -80,14 +80,36 @@ header .nav-bar{
     border: 2px dotted white;
 }
 
-footer > section > .container{
-    margin-top: 1rem;
+.bottom-footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-footer > section > {
+.footer-nav{
+    height: 55px;
+    width: 65%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    border: 2px dashed black;
+    background-color: pink;
+    padding: 4px 8px;
+}
+
+
+footer > section{
     border-bottom: 2px solid white;
 }
 
+footer > section > .container{
+    margin-top: 1rem;
+}
 
 .gray {
     background-color: lightgray;

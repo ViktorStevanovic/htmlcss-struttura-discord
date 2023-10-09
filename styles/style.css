@@ -17,14 +17,45 @@ header{
 }
 
 .border {
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
-header .nav-bar{
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+.nav-bar{
     display: flex;
     width: 60%;
     background-color: lightsalmon;
     height: 50px;
+}
+
+.logo, .login{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 1rem;
+}
+
+.login{
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.links{
+    display: flex;
+    width:60%;
+    align-items: center;
+    justify-content: center;
 }
 
 .blu-background{
